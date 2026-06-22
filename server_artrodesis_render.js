@@ -31,9 +31,7 @@ function rango(desde, hasta) {
 }
 
 function rangoDx(desde, hasta) {
-  return rango(desde, hasta)
-    .replace("desde ", "")
-    .replace("a nivel de ", "a nivel ");
+  return rango(desde, hasta);
 }
 
 function textoCajas(h) {
